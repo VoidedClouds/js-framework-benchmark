@@ -1,0 +1,45 @@
+{
+  "name": "js-framework-benchmark-vanjs-htm",
+  "version": "0.1.0",
+  "description": "VanHTM demo: This kept as similar as possible to VanJS benchmark for comparison",
+  "js-framework-benchmark": {
+    "frameworkVersionFromPackage": "vanjs-htm",
+    "issues": [
+      772
+    ]
+  },
+  "scripts": {
+    "dev": "bash bundle.sh && cp dist/bundle.js dist/bundle.out.js",
+    "build-prod": "bash bundle.sh && bash minify.sh"
+  },
+  "keywords": [
+    "Van",
+    "Vanilla",
+    "UI",
+    "UI Framework",
+    "React",
+    "Reactive",
+    "DOM",
+    "DOM Manipulation",
+    "Zero-Dependency",
+    "lightweight",
+    "Ultra-lightweight",
+    "Minimalist"
+  ],
+  "author": "VoidedClouds",
+  "license": "MIT",
+  "homepage": "https://github.com/VoidedClouds/van-htm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VoidedClouds/van-htm.git"
+  },
+  "dependencies": {
+    "htm": "^3.1.1",
+    "vanjs-core": "^1.5.5",
+    "vanjs-htm": "^1.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "terser": "^5.37.0"
+  }
+}
